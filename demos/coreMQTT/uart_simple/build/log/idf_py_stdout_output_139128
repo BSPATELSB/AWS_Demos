@@ -1,0 +1,85 @@
+-- Found Git: /usr/bin/git (found version "2.25.1") 
+-- Component directory /home/bhaumik/Documents/esp/esp-idf/components/esp-aws-iot does not contain a CMakeLists.txt file. No component will be added
+-- Component directory /home/bhaumik/Documents/esp/esp-idf/components/esp32-lora-library does not contain a CMakeLists.txt file. No component will be added
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/bhaumik/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+-- Check for working C compiler: /home/bhaumik/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+-- Check for working C compiler: /home/bhaumik/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /home/bhaumik/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++
+-- Check for working CXX compiler: /home/bhaumik/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:202 CONFIG_MCPWM_ISR_IN_IRAM was replaced with CONFIG_MCPWM_ISR_IRAM_SAFE
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:281 CONFIG_ESP32_DEFAULT_CPU_FREQ_80 was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_80
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:282 CONFIG_ESP32_DEFAULT_CPU_FREQ_160 was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_160
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:283 CONFIG_ESP32_DEFAULT_CPU_FREQ_240 was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:284 CONFIG_ESP32_DEFAULT_CPU_FREQ_MHZ was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:285 CONFIG_ESP32_SPIRAM_SUPPORT was replaced with CONFIG_SPIRAM
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:288 CONFIG_ESP32_ULP_COPROC_ENABLED was replaced with CONFIG_ULP_COPROC_ENABLED
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:289 CONFIG_ESP32_ULP_COPROC_RESERVE_MEM was replaced with CONFIG_ULP_COPROC_RESERVE_MEM
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:290 CONFIG_ESP32_DEBUG_OCDAWARE was replaced with CONFIG_ESP_DEBUG_OCDAWARE
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:291 CONFIG_ESP32_BROWNOUT_DET was replaced with CONFIG_ESP_BROWNOUT_DET
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:292 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_0 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_0
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:293 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_1 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_1
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:294 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_2 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_2
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:295 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_3 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_3
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:296 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_4 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_4
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:297 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_5 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_5
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:298 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_6 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_6
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:299 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_7 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_7
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:300 CONFIG_ESP32_BROWNOUT_DET_LVL was replaced with CONFIG_ESP_BROWNOUT_DET_LVL
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:301 CONFIG_ESP32_TIME_SYSCALL_USE_RTC_FRC1 was replaced with CONFIG_NEWLIB_TIME_SYSCALL_USE_RTC_HRT
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:302 CONFIG_ESP32_TIME_SYSCALL_USE_RTC was replaced with CONFIG_NEWLIB_TIME_SYSCALL_USE_RTC
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:303 CONFIG_ESP32_TIME_SYSCALL_USE_FRC1 was replaced with CONFIG_NEWLIB_TIME_SYSCALL_USE_HRT
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:304 CONFIG_ESP32_TIME_SYSCALL_USE_NONE was replaced with CONFIG_NEWLIB_TIME_SYSCALL_USE_NONE
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:305 CONFIG_ESP32_RTC_CLK_SRC_INT_RC was replaced with CONFIG_RTC_CLK_SRC_INT_RC
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:306 CONFIG_ESP32_RTC_CLK_SRC_EXT_CRYS was replaced with CONFIG_RTC_CLK_SRC_EXT_CRYS
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:307 CONFIG_ESP32_RTC_CLK_SRC_EXT_OSC was replaced with CONFIG_RTC_CLK_SRC_EXT_OSC
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:308 CONFIG_ESP32_RTC_CLK_SRC_INT_8MD256 was replaced with CONFIG_RTC_CLK_SRC_INT_8MD256
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:309 CONFIG_ESP32_RTC_CLK_CAL_CYCLES was replaced with CONFIG_RTC_CLK_CAL_CYCLES
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:310 CONFIG_ESP32_DEEP_SLEEP_WAKEUP_DELAY was replaced with CONFIG_ESP_SLEEP_DEEP_SLEEP_WAKEUP_DELAY
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:311 CONFIG_ESP32_XTAL_FREQ_40 was replaced with CONFIG_XTAL_FREQ_40
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:312 CONFIG_ESP32_XTAL_FREQ_26 was replaced with CONFIG_XTAL_FREQ_26
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:313 CONFIG_ESP32_XTAL_FREQ_AUTO was replaced with CONFIG_XTAL_FREQ_AUTO
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:314 CONFIG_ESP32_XTAL_FREQ was replaced with CONFIG_XTAL_FREQ
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:316 CONFIG_ESP32_NO_BLOBS was replaced with CONFIG_APP_NO_BLOBS
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:317 CONFIG_ESP32_COMPATIBLE_PRE_V2_1_BOOTLOADERS was replaced with CONFIG_APP_COMPATIBLE_PRE_V2_1_BOOTLOADERS
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:318 CONFIG_ESP32_COMPATIBLE_PRE_V3_1_BOOTLOADERS was replaced with CONFIG_APP_COMPATIBLE_PRE_V3_1_BOOTLOADERS
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:391 CONFIG_OTA_ALLOW_HTTP was replaced with CONFIG_ESP_HTTPS_OTA_ALLOW_HTTP
+/home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/sdkconfig:685 CONFIG_HAL_ASSERTION_SILIENT was replaced with CONFIG_HAL_ASSERTION_SILENT
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /home/bhaumik/.espressif/python_env/idf5.1_py3.8_env/bin/python (found version "3.8.10") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "uart_simple" version: v5.1-dev-645-g3b62f08890-dirty
+-- Adding linker script /home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/bhaumik/Documents/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/bhaumik/Documents/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/bhaumik/Documents/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/bhaumik/Documents/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/bhaumik/Documents/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/bhaumik/Documents/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/bhaumik/Documents/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/bhaumik/Documents/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_netif esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_serial_slave_link esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport tinyusb ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/bhaumik/Documents/esp/esp-idf/components/app_trace /home/bhaumik/Documents/esp/esp-idf/components/app_update /home/bhaumik/Documents/esp/esp-idf/components/bootloader /home/bhaumik/Documents/esp/esp-idf/components/bootloader_support /home/bhaumik/Documents/esp/esp-idf/components/bt /home/bhaumik/Documents/esp/esp-idf/components/cmock /home/bhaumik/Documents/esp/esp-idf/components/console /home/bhaumik/Documents/esp/esp-idf/components/cxx /home/bhaumik/Documents/esp/esp-idf/components/driver /home/bhaumik/Documents/esp/esp-idf/components/efuse /home/bhaumik/Documents/esp/esp-idf/components/esp-tls /home/bhaumik/Documents/esp/esp-idf/components/esp_adc /home/bhaumik/Documents/esp/esp-idf/components/esp_app_format /home/bhaumik/Documents/esp/esp-idf/components/esp_common /home/bhaumik/Documents/esp/esp-idf/components/esp_eth /home/bhaumik/Documents/esp/esp-idf/components/esp_event /home/bhaumik/Documents/esp/esp-idf/components/esp_gdbstub /home/bhaumik/Documents/esp/esp-idf/components/esp_hid /home/bhaumik/Documents/esp/esp-idf/components/esp_http_client /home/bhaumik/Documents/esp/esp-idf/components/esp_http_server /home/bhaumik/Documents/esp/esp-idf/components/esp_https_ota /home/bhaumik/Documents/esp/esp-idf/components/esp_https_server /home/bhaumik/Documents/esp/esp-idf/components/esp_hw_support /home/bhaumik/Documents/esp/esp-idf/components/esp_lcd /home/bhaumik/Documents/esp/esp-idf/components/esp_local_ctrl /home/bhaumik/Documents/esp/esp-idf/components/esp_netif /home/bhaumik/Documents/esp/esp-idf/components/esp_phy /home/bhaumik/Documents/esp/esp-idf/components/esp_pm /home/bhaumik/Documents/esp/esp-idf/components/esp_psram /home/bhaumik/Documents/esp/esp-idf/components/esp_ringbuf /home/bhaumik/Documents/esp/esp-idf/components/esp_rom /home/bhaumik/Documents/esp/esp-idf/components/esp_serial_slave_link /home/bhaumik/Documents/esp/esp-idf/components/esp_system /home/bhaumik/Documents/esp/esp-idf/components/esp_timer /home/bhaumik/Documents/esp/esp-idf/components/esp_wifi /home/bhaumik/Documents/esp/esp-idf/components/espcoredump /home/bhaumik/Documents/esp/esp-idf/components/esptool_py /home/bhaumik/Documents/esp/esp-idf/components/fatfs /home/bhaumik/Documents/esp/esp-idf/components/freertos /home/bhaumik/Documents/esp/esp-idf/components/hal /home/bhaumik/Documents/esp/esp-idf/components/heap /home/bhaumik/Documents/esp/esp-idf/components/http_parser /home/bhaumik/Documents/esp/esp-idf/components/idf_test /home/bhaumik/Documents/esp/esp-idf/components/ieee802154 /home/bhaumik/Documents/esp/esp-idf/components/json /home/bhaumik/Documents/esp/esp-idf/components/log /home/bhaumik/Documents/esp/esp-idf/components/lwip /home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/main /home/bhaumik/Documents/esp/esp-idf/components/mbedtls /home/bhaumik/Documents/esp/esp-idf/components/mqtt /home/bhaumik/Documents/esp/esp-idf/components/newlib /home/bhaumik/Documents/esp/esp-idf/components/nvs_flash /home/bhaumik/Documents/esp/esp-idf/components/openthread /home/bhaumik/Documents/esp/esp-idf/components/partition_table /home/bhaumik/Documents/esp/esp-idf/components/perfmon /home/bhaumik/Documents/esp/esp-idf/components/protobuf-c /home/bhaumik/Documents/esp/esp-idf/components/protocomm /home/bhaumik/Documents/esp/esp-idf/components/pthread /home/bhaumik/Documents/esp/esp-idf/components/sdmmc /home/bhaumik/Documents/esp/esp-idf/components/soc /home/bhaumik/Documents/esp/esp-idf/components/spi_flash /home/bhaumik/Documents/esp/esp-idf/components/spiffs /home/bhaumik/Documents/esp/esp-idf/components/tcp_transport /home/bhaumik/Documents/esp/esp-idf/components/tinyusb /home/bhaumik/Documents/esp/esp-idf/components/ulp /home/bhaumik/Documents/esp/esp-idf/components/unity /home/bhaumik/Documents/esp/esp-idf/components/usb /home/bhaumik/Documents/esp/esp-idf/components/vfs /home/bhaumik/Documents/esp/esp-idf/components/wear_levelling /home/bhaumik/Documents/esp/esp-idf/components/wifi_provisioning /home/bhaumik/Documents/esp/esp-idf/components/wpa_supplicant /home/bhaumik/Documents/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/bhaumik/Documents/esp/esp-idf/examples/uart_usbTTL_demo/uart_simple/build
